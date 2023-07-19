@@ -39,6 +39,10 @@ def predict_project():
     result = {'category' : int(predicted_labels[0])}
     return result, 200
 
+@app.route('/', methods=['GET'])
+def hello():
+    return "Hello"
+
 # Chạy ứng dụng Flask
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
