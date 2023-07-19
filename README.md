@@ -1,0 +1,3 @@
+- Tải xuống python version 3.10.4
+- Chạy command line: pip install keras tensorflow joblib flask scikit-learn
+- Sau đó chạy bằng lệnh sau: python3 main.py
